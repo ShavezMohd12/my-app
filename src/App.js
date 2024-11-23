@@ -8,7 +8,7 @@ import { Route, Routes } from 'react-router-dom';
 // import About from './About';
 import Trafficsource from './Trafficsource';
 // import Login from './Login_Registeration/Login';
-// import CandidateSource from "./CandidateSource";
+import CandidateSource from "./CandidateSource";
 import banner from "./img/BANNER.png";
 // import My_Progress from './My_Progress';
 // import Assessment_Apply from './Assessment_Apply';
@@ -18,7 +18,7 @@ const About=React.lazy(()=>import("./About"))
 const Lazy=React.lazy(()=>import('./My_Progress'));
 const Career=React.lazy(()=>import("./Career"));
 const Login=React.lazy(()=>import("./Login_Registeration/Login"));
-const CandidateSource=React.lazy(()=>import("./CandidateSource"))
+// const CandidateSource=React.lazy(()=>import("./CandidateSource"))
 // const banner=React.lazy(()=>import("./img/BANNER.png"));
 function App() {
 
@@ -42,7 +42,7 @@ function App() {
         
 
       <Routes>
-        <Route path="/" element={<React.Suspense><CandidateSource/></React.Suspense>}/>
+        <Route path="/" element={<CandidateSource/>}/>
         {/* <Route path /> */}
         <Route path="/Bachelor/login" element={<React.Suspense><Login/></React.Suspense>} />
         <Route path="/Bachelor/CareerPortal" element={<React.Suspense><Career/></React.Suspense>}/>
