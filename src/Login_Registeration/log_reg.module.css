@@ -1,0 +1,42 @@
+.login
+{
+    width: 101%;
+    height:100%;
+   
+}
+.card
+{
+    background-image: url('../img/login_background.png');
+    
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+.input
+{
+    width:60%;
+   background-color: rgba(185, 184, 184, 0.796);
+   color:rgb(0, 0, 0);
+    height:18%;
+    padding-left: 20px;
+    text-align:left;
+    font-size: 30px;
+    border: none;
+    margin-top:50px;
+    
+}
+.label
+{
+   margin-right: 3%;
+}
+
+.submit
+{
+    background-color: #ecb728;
+    font-size: 25px;
+    width:auto;
+    padding: 2%;
+letter-spacing: 5px;
+margin-top: 20px;
+margin-bottom: 10px;
+}

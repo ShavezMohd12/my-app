@@ -1,0 +1,156 @@
+.logname
+{
+    font-family:'Times New Roman', Times, serif;
+   font-size:40px;
+   letter-spacing:5px;
+    color:#f5c856;
+    position:relative;
+   margin:0;
+   position: relative;
+   bottom:10px;
+}
+.brand
+{
+    height:50px;
+     position: relative;
+    /* top:5px;  */
+    padding:0;
+    width:500px;
+    /* border:1px white solid; */
+    
+}
+.slogan
+{
+    position:absolute;
+    bottom:0;
+    top:35px;
+    font-family:"Lucida Console", "Courier New", monospace;
+    font-size: 25px;
+  /* margin-top: -10px; */
+       
+    padding: 0;
+    color:#f9e09f;
+}
+.links{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    font-size: 27px;
+    color:#f5c856;
+    /* color:white; */
+    letter-spacing: 4px;
+    width: 200px;
+    position:relative;
+    top:8px;
+   height:75px;
+    text-decoration: none;
+    font-weight: 500;
+    margin-right:10px;
+}
+.links:hover{
+    background-color: #c8c1b1;
+    color:black;
+    /* border: 4px #c1911f solid; */
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+
+
+
+
+.dropDown
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position:relative;
+    font-size:27px;
+    height: 75px;
+    top:8px;
+    width: 200px;
+    letter-spacing: 4px;
+    color: #f5c856;
+    /* color:white; */
+    background-color: inherit;
+    padding: 10px;
+    font-weight: 500;
+
+   
+}
+.dropDown:hover{
+    color: white;
+    text-decoration: none;
+    background-color: #c8c1b1;
+    border-radius: 0;
+    cursor: pointer;
+    border-radius: 10px;
+    
+}
+.dropHeading
+{
+    position: relative;
+    top:10px;
+    padding: 10px;
+    font-size: 20px;
+    letter-spacing: 6px;
+    color:black;
+    font-weight:bold;
+    
+}
+
+.dropList
+{
+    font-size: 20px;
+    margin-right: 10px;
+   text-decoration: underline;
+    padding: 5px;
+     color:#31473A;
+     /* color:white; */
+     
+     /* color:crimson; */
+ 
+    
+}
+.dropList:hover
+{
+    background-color: #c5aa6a;
+    color: black;
+}
+
+.tech
+{
+   
+    border-radius:5px;
+    margin:5px;
+    padding: 5px;
+    cursor: pointer; 
+    background-color: #94a3b8;
+}
+.tech:hover 
+{
+    background-color: white;
+    border:2px #3b82f6 solid;
+    color:#94a3b8;
+}
+
+.quote
+{
+    /* position:relative; */
+    /* bottom:15px; */
+    border:1px black solid;
+    padding:"10px";
+    text-align:center;
+    background-image:url('../img/quote.png');
+    background-size:200%;
+    
+}
+
+.log:hover {
+    color:#312915;
+    border:4px red solid;
+    background-color: rgb(223, 163, 154);
+}
+
+.apply:hover {
+    color:#312915;
+    border:3px green solid;
+    background-color: greenyellow;
+}

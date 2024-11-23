@@ -1,0 +1,32 @@
+.source
+{
+    width:100%;
+    font-size: 200%;
+    margin:3%;
+    padding:10px;
+    background-color:white;
+    color:#38598b;
+}
+.source:hover{
+
+    
+    color:white;
+    border: 2px #113f67 solid;
+}
+
+.candidate
+{
+    width:90%;
+    font-size: 200%;
+    margin:2%;
+    padding:10px;
+    background-color:white;
+    color:#38598b;
+}
+
+.candidate:hover
+{
+    border: 4px #38598b solid;
+    color:#061b3b;
+    background-color: rgb(124, 124, 236);
+}
